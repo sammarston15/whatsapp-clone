@@ -9,6 +9,9 @@ const NewContactModal = ({ closeModal }) => {
   function handleSubmit(e) {
     e.prevent.default();
 
+    // createContact(idRef.current.value, nameRef.current.value)
+    closeModal();
+
   }
   return (
     <div>
